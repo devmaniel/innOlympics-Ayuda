@@ -1,11 +1,13 @@
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 
+import axiosConfig from "@/lib/axiosConfig";
+
 const SignUp = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center p-4">
+    <div className="flex items-center justify-center min-h-screen p-4">
       <form className="w-full max-w-[800px] space-y-6 rounded-lg border p-6 shadow-lg">
-        <h1 className="text-2xl font-bold text-left mb-6">Sign Up</h1>
+        <h1 className="mb-6 text-2xl font-bold text-left">Sign Up</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt
           molestias facilis consectetur magnam in. Saepe!
@@ -20,7 +22,7 @@ const SignUp = () => {
                 type="text"
                 id="username"
                 placeholder="Enter username"
-                className="w-full border rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-primary"
+                className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
               />
             </div>
 
@@ -30,7 +32,7 @@ const SignUp = () => {
                 type="email"
                 id="email"
                 placeholder="Enter email"
-                className="w-full border rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-primary"
+                className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
               />
             </div>
 
@@ -40,7 +42,7 @@ const SignUp = () => {
                 type="text"
                 id="firstName"
                 placeholder="Enter first name"
-                className="w-full border rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-primary"
+                className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
               />
             </div>
           </div>
@@ -53,7 +55,7 @@ const SignUp = () => {
                 type="text"
                 id="middleName"
                 placeholder="Enter middle name"
-                className="w-full border rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-primary"
+                className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
               />
             </div>
 
@@ -63,7 +65,7 @@ const SignUp = () => {
                 type="text"
                 id="lastName"
                 placeholder="Enter last name"
-                className="w-full border rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-primary"
+                className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
               />
             </div>
 
@@ -73,7 +75,7 @@ const SignUp = () => {
                 type="text"
                 id="address"
                 placeholder="House No/Street/Barangay"
-                className="w-full border rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-primary"
+                className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
               />
             </div>
           </div>
@@ -87,9 +89,7 @@ const SignUp = () => {
               type="file"
               id="validId"
               accept="image/*"
-              className="w-full border rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-primary 
-               file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 
-               file:bg-primary file:text-black hover:file:bg-primary/90"
+              className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:bg-primary file:text-black hover:file:bg-primary/90"
             />
           </div>
         </div>
