@@ -1,0 +1,10 @@
+{
+    "require": {
+        "kreait/firebase-php": "^5.26"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
