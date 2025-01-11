@@ -11,7 +11,7 @@ export const AuthProvider = ({ children }) => {
   useEffect(() => {
     const checkSession = async () => {
       try {
-        const response = await axiosConfig.get("auth/session.php");
+        const response = await axiosConfig.get("/auth/session.php");
         if (response.data.user) {
           setUser(response.data.user); // Set user from session if logged in
         }
