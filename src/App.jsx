@@ -7,11 +7,9 @@ import AppRoute from "./AppRoute";
 
 const App = () => {
   return (
-    <AuthProvider>
-      <BrowserRouter>
-        <AppRoute />
-      </BrowserRouter>
-    </AuthProvider>
+    <BrowserRouter>
+      <AppRoute />
+    </BrowserRouter>
   );
 };
 

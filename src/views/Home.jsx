@@ -29,7 +29,7 @@ const Home = () => {
   ];
 
   return (
-    <div className="container mx-auto p-6">
+    <div className="container p-6 mx-auto font-ranade">
       <Card>
         <CardHeader>
           <h2 className="text-xl font-semibold">History of Ayuda</h2>

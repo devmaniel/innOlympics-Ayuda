@@ -9,13 +9,13 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white shadow-lg">
+    <nav className="bg-white shadow-lg font-ranade">
       <div className="px-4 mx-auto max-w-7xl">
         <div className="flex justify-between h-16">
           {/* Logo/Brand */}
           <div className="flex items-center">
-            <Link to="/" className="text-xl font-bold text-gray-800">
-              Logo
+            <Link to="/" className="text-xl font-bold text-blue-600">
+              AyudaCo
             </Link>
           </div>
 
@@ -38,12 +38,6 @@ const Navbar = () => {
               className="text-gray-600 transition-colors duration-200 hover:text-gray-900"
             >
               About
-            </Link>
-            <Link
-              to="/profile"
-              className="text-gray-600 transition-colors duration-200 hover:text-gray-900"
-            >
-              Profile
             </Link>
 
             <Link

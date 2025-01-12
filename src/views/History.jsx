@@ -24,7 +24,7 @@ const History = () => {
   return (
     <>
       <Navbar />
-      <div className="container h-full max-w-4xl mx-auto mt-5 mb-5 ">
+      <div className="container h-full max-w-4xl mx-auto mt-5 mb-5  font-ranade">
         {/* Card Container */}
         <div className="overflow-hidden bg-white shadow-md">
           <h1 className="mx-5 mt-5 mb-4 text-4xl font-bold text-gray-900">
