@@ -1,5 +1,5 @@
 
-<img src="https://github.com/user-attachments/assets/cc4601e4-a5f0-4787-aaf1-1f018224c655" width="40" height="40" alt="Logo" style="margin-right: 5px;">
+<img src="https://github.com/user-attachments/assets/cc4601e4-a5f0-4787-aaf1-1f018224c655" width="60" height="60" alt="Logo" style="margin-right: 5px;">
 
 # AyudaCo
 
