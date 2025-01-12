@@ -1,5 +1,7 @@
-![Your paragraph text](https://github.com/user-attachments/assets/410ae888-a8ed-40ae-a99b-344de22ecac1)
-# AyudaCo
+<div style="display: flex; align-items: center;">
+  <img src="https://github.com/user-attachments/assets/dcd38372-92db-4c6f-830f-388117de1b1f" width="20" height="20" alt="Logo" style="margin-right: 5px;">
+  AyudaCo
+</div>
 
 A digital platform bridging barangay residents with LGU services for efficient access to subsidies, cash assistance, and aid programs.
 
