@@ -59,7 +59,7 @@ const About = () => {
                   connect directly with local officials.
                 </div>
               </div>
-              <div className="self-stretch h-[140px] flex-col justify-start items-start gap-4 flex">
+              <div className="self-stretch h-[140px] flex-col mt-14 justify-start items-start gap-4 flex">
                 <div className="inline-flex items-center self-stretch justify-start gap-4">
                   <img
                     className="w-9 h-9 relative rounded-[100px]"

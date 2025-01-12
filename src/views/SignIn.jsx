@@ -65,7 +65,7 @@ const SignIn = () => {
         onSubmit={handleSubmit}
         className="w-full max-w-[800px] space-y-6 rounded-lg border p-6 shadow-lg"
       >
-        <h1 className="mb-6 text-2xl font-bold text-left">Login</h1>
+        <h1 className="mb-6 text-2xl font-bold text-left">Sign In</h1>
 
         <div className="space-y-2">
           <Label htmlFor="username">Username</Label>
@@ -94,7 +94,7 @@ const SignIn = () => {
         {errorMessage && <p className="text-sm text-red-500">{errorMessage}</p>}
 
         <Button type="submit" className="w-full">
-          Log In
+          Sign In
         </Button>
       </form>
     </div>
