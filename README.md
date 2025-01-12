@@ -1,5 +1,5 @@
 <div style="display: flex; align-items: center;">
-  <img src="https://github.com/user-attachments/assets/dcd38372-92db-4c6f-830f-388117de1b1f" width="20" height="20" alt="Logo" style="margin-right: 5px;">
+  <img src="https://github.com/user-attachments/assets/dcd38372-92db-4c6f-830f-388117de1b1f" width="40" height="40" alt="Logo" style="margin-right: 5px;">
   AyudaCo
 </div>
 
