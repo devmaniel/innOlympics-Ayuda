@@ -13,7 +13,8 @@ const Navbar = () => {
       <div className="px-4 mx-auto max-w-7xl">
         <div className="flex justify-between h-16">
           {/* Logo/Brand */}
-          <div className="flex items-center">
+          <div className="flex items-center gap-2">
+            <img src="/images/logo.svg" alt="AyudaCo" className="h-7" />
             <Link to="/" className="text-xl font-bold text-blue-600">
               AyudaCo
             </Link>
