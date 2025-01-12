@@ -1,3 +1,4 @@
+![Your paragraph text](https://github.com/user-attachments/assets/410ae888-a8ed-40ae-a99b-344de22ecac1)
 # AyudaCo
 
 A digital platform bridging barangay residents with LGU services for efficient access to subsidies, cash assistance, and aid programs.
