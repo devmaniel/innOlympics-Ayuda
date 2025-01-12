@@ -20,6 +20,7 @@ AyudaCo is a web application designed to streamline the distribution and managem
 ## Technology Stack
 
 ### Frontend
+- **Figma**: A UI/UX software used to create wireframes and prototypes.
 - **React + Vite**: Modern frontend framework for building user interfaces
   - Utilizes Fast Refresh for enhanced development experience
   - Optimized build process for production deployment
