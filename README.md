@@ -1,10 +1,7 @@
-<div style="display: flex; align-items: center;">
-  <img src="https://github.com/user-attachments/assets/cc4601e4-a5f0-4787-aaf1-1f018224c655" width="40" height="40" alt="Logo" style="margin-right: 5px;">
-  <span>AyudaCo</span>
-</div>
 
+<img src="https://github.com/user-attachments/assets/cc4601e4-a5f0-4787-aaf1-1f018224c655" width="40" height="40" alt="Logo" style="margin-right: 5px;">
 
-
+# AyudaCo
 
 A digital platform bridging barangay residents with LGU services for efficient access to subsidies, cash assistance, and aid programs.
 
