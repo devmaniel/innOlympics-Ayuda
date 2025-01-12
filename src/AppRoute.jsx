@@ -5,7 +5,6 @@ import { useLocation } from "react-router-dom";
 import SignIn from "./views/SignIn";
 import SignUp from "./views/SignUp";
 import Home from "./views/Home";
-import Profile from "./views/Profile";
 import Announcement_Page from "./views/Announcement_Page";
 import Announcement_Content from "./views/Announcement_Content";
 
@@ -52,14 +51,7 @@ const AppRoute = () => (
         </ProtectedRoute>
       }
     />
-    <Route
-      path="/profile"
-      element={
-        <ProtectedRoute>
-          <Profile />
-        </ProtectedRoute>
-      }
-    />
+  
     <Route
       path="/history"
       element={
